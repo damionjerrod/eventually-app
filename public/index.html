@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="Sign_In_Page">
+            <div class="topBar">
+                <!--<ul>
+                    <li><a href="admin.html">Admin</a></li>
+                </ul>-->
+            </div>
+            <div class="signInBox">
+                <form name="myForm">
+                    <input id="fname" class="fname" type="text" placeholder="First Name" maxlength="30"name="fname" required>
+                    <input id="lname" class="lname" type="text" placeholder="Last Name" maxlength="30" name="lname" required>
+                    <input type="email" class="email" placeholder="JohnDoe@gmail.com" maxlength="63" name="email" id= "mail" required>
+                    <select id="events" class="events">
+                        <option value="">--Select Your Event--</option>
+                    </select><br>
+                    <b><button id="button" class="button" type="submit" onclick="validateForm()" value="Submit"><b>SUBMIT</b></button>
+                    <a class="guestList" href="admin.html">Guest List</a>
+                </form>
+            </div>
+            <div id="Eventually_">
+                <span>Event</span><span style="font-style:normal;font-weight:normal;">ually.</span>
+            </div>
+            <img src="logo.jpg" alt="logo" id="logo">
+            <div id="Sign_In">
+                <span>Sign In</span>
+            </div>
+        </div>
+        <script src="GroupProject.js"></script>
+    </body>
+</html>
